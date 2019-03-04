@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navigation from './comp/Navigation/Navigation.js';
+import Home from './comp/Home/Home.js';
 
 class App extends Component {
   render() {
@@ -9,7 +10,7 @@ class App extends Component {
         <Navigation />
 
         <div class='container'>
-          <p>app</p>
+          <Home />
         </div>
       </div>
     );
