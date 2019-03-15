@@ -1,8 +1,11 @@
 import React from 'react';
 
+import './Projects.css';
+
 const Project = ({props}) => (
-  <div>
-    <h2>Projects</h2>
+  <div className='container'>
+    <h2>Projects by Zen</h2>
+    <p>Under Construction</p>
   </div>
 );
 
