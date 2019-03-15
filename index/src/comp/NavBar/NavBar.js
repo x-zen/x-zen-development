@@ -3,7 +3,7 @@ import React from 'react';
 import './NavBar.css';
 
 const NavBar = ({props}) => (
-  <nav>
+  <div className='nav'>
     <div className='nav-logo'>
       <h1>X-ZEN</h1>
     </div>
@@ -13,7 +13,7 @@ const NavBar = ({props}) => (
       <p className='nav-item'>foo</p>
       <p className='nav-item'>foo</p>
     </div>
-  </nav>
+  </div>
 );
 
 export default NavBar;
