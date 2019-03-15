@@ -27,6 +27,7 @@
 
 .box-1 h2 {
   font-size: 2rem;
+  margin: 0.5rem auto;
 }
 
 .icon-box {
@@ -39,7 +40,8 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 80%;
+  margin: auto;
   padding: 0.5rem;
 
   border: 1px solid white;
