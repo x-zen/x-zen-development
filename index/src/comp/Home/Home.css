@@ -45,13 +45,32 @@ html {
   text-align: center;
 }
 
+.text-box h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hr {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.text-box h3 {
+  font-size: 1.3rem;
+}
+
 .social-box {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 0.5rem auto;
+  margin: 1rem auto 0.5rem auto;
   justify-content: center;
   text-align: center;
+}
+
+.social-box h3 {
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .links {
@@ -67,8 +86,7 @@ html {
 }
 
 .fab:hover {
-  font-size: 2.7rem;
-  box-shadow: 3px 5px 10px black;
+  color: lightgreen;
   transition: 1s;
   cursor: pointer;
 }

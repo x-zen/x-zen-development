@@ -13,6 +13,7 @@ const Home = ({props}) => (
 
       <div className='text-box'>
         <h2>Zen Harris</h2>
+        <div className='hr'><hr/></div>
         <h3>Front-End Web Developer</h3>
       </div>
 
